@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Kanit:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    margin: 0;
+    background: #0f1826;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
