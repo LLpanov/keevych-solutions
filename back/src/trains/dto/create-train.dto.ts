@@ -3,7 +3,7 @@ import { Transform } from 'class-transformer';
 import { IsInt, IsNotEmpty, IsNumber, IsString, Length, ValidateIf } from 'class-validator';
 
 export class CreateTrainDto {
-	@IsInt({ message: 'must be an integer' })
+
 	@IsNumber({}, { message: 'must be a number' })
 	@IsNotEmpty({ message: 'must be a number of train' })
 	@Length(7, 7, { message: 'must be a 7-digit number' })
